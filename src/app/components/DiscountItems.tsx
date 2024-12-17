@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function DiscountItems() {
   return (
@@ -44,13 +45,14 @@ export default function DiscountItems() {
     {/* Right Column: Chair Image */}
     <div className=" mr-[200] md:w-1/3 flex justify-center items-center relative">
       <div className="relative bg-gradient-to-r from-pink-100 to-purple-200 rounded-full p-10 shadow-xl mt-10 mx-auto">
-        <img
+        <Image
           src={"/discountimg.png"}
           alt="Furniture Chair"
           width={200}
           height={300}
           className="object-contain w-full h-auto"
-        />
+        >
+        </Image>
       </div>
       </div>
     </div>
