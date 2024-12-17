@@ -4,7 +4,7 @@ import React from 'react';
         name: "Cantilever chair",
         code: "Code - Y523201",
         price: "$42.00",
-        image: "/feature1.png", // Replace with actual image paths
+        image: "/feature1.png",
       },
       {
         name: "Cantilever chair",
@@ -40,7 +40,7 @@ export default function FeaturedProducts() {
             <div
               key={index}
               className="relative border rounded-xl p-4 bg-white shadow-md hover:shadow-lg transition duration-300"
-              style={{ height: "361px" }} // Optional height for consistent card size
+              style={{ height: "360px" }}
             >
               <div className="w-full h-40 flex items-center justify-center overflow-hidden rounded-lg">
                 <img

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { CiMail } from "react-icons/ci";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -26,7 +27,7 @@ function Navbar() {
                     </div>
                     <RiArrowDropDownLine className='text-2xl' />
                     <div className='ml-6'>
-                    Login
+                    <Link href="login">Login</Link>
                     </div>
                     <MdOutlinePersonOutline className='text-1xl' />
                     <div className='ml-6'>
@@ -43,12 +44,12 @@ function Navbar() {
         <div className="flex justify-between items-centerpx-8 py-4">
             <h1 className="text-2xl font-bold text-black ml-[200px]">Hekto</h1>
             <nav className="hidden md:flex space-x-8 mr-[50px]">
-              <a href="#" className="text-pink-600 hover:text-black underline">Home</a>
-              <a href="#" className="text-slate-600 hover:text-black">Pages</a>
-              <a href="#" className="text-slate-600 hover:text-black">Product</a>
-              <a href="#" className="text-slate-600 hover:text-black">Blog</a>
-              <a href="#" className="text-slate-600 hover:text-black">Shop</a>
-              <a href="#" className="text-slate-600 hover:text-black">Contact</a>
+              <a href="/" className="text-pink-600 hover:text-black underline">Home</a>
+              <a href="/pages" className="text-slate-600 hover:text-black">Pages</a>
+              <a href="/product" className="text-slate-600 hover:text-black">Product</a>
+              <a href="/blog" className="text-slate-600 hover:text-black">Blog</a>
+              <a href="/shop" className="text-slate-600 hover:text-black">Shop</a>
+              <a href="/contact" className="text-slate-600 hover:text-black">Contact</a>
             </nav>
             {/*search icon*/}
             <div className="flex items-center space-x-6">
@@ -57,7 +58,7 @@ function Navbar() {
                      placeholder="Search"
                      className="bg-slate-100 outline-none text-sm"
                      />
-                     <CiSearch />
+                     <CiSearch className='text-1xl' />
                 </div>
             </div>
         </div>

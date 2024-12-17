@@ -29,7 +29,7 @@ export default function Latest() {
                 className="w-full h-250 object-cover rounded-t-lg mb-4"
               />
             </div>
-            <div className="bg-white p-4 rounded-b-lg">
+            <div className="p-4 rounded-b-lg">
               <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
               <div className="flex items-center">
                 <span className="text-pink-500 font-bold mr-2">$42.00</span>
@@ -47,7 +47,7 @@ export default function Latest() {
                 className="w-full h-250 object-cover rounded-t-lg mb-4"
               />
             </div>
-            <div className="bg-white p-4 rounded-b-lg">
+            <div className="p-4 rounded-b-lg">
               <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
               <div className="flex items-center">
                 <span className="text-pink-500 font-bold mr-2">$42.00</span>
@@ -65,7 +65,7 @@ export default function Latest() {
                 className="w-full h-250 object-cover rounded-t-lg mb-4"
               />
             </div>
-            <div className="bg-white p-4 rounded-b-lg">
+            <div className=" p-4 rounded-b-lg">
               <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
               <div className="flex items-center">
                 <span className="text-pink-500 font-bold mr-2">$77.00</span>
@@ -83,7 +83,7 @@ export default function Latest() {
                 className="w-full h-250 object-cover rounded-t-lg mb-4"
               />
             </div>
-            <div className="bg-white p-4 rounded-b-lg">
+            <div className="p-4 rounded-b-lg">
               <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
               <div className="flex items-center">
                 <span className="text-pink-500 font-bold mr-2">$42.00</span>
@@ -101,8 +101,8 @@ export default function Latest() {
                 className="w-full h-250 object-cover rounded-t-lg mb-4"
               />
             </div>
-            <div className="bg-white p-4 rounded-b-lg">
-              <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
+            <div className="p-4 rounded-b-lg">
+              <h2 className="text-lg font-semibold mt-10">Comfort Handy Craft</h2>
               <div className="flex items-center">
                 <span className="text-pink-500 font-bold mr-2">$42.00</span>
                 <span className="text-gray-400 line-through">$65.00</span>
@@ -119,8 +119,8 @@ export default function Latest() {
                 className="w-full h-250 object-cover rounded-t-lg mb-4"
               />
             </div>
-            <div className="bg-white p-4 rounded-b-lg">
-              <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
+            <div className="p-4 rounded-b-lg">
+              <h2 className="text-lg font-semibold mt-10">Comfort Handy Craft</h2>
               <div className="flex items-center">
                 <span className="text-pink-500 font-bold mr-2">$42.00</span>
                 <span className="text-gray-400 line-through">$65.00</span>
@@ -128,6 +128,6 @@ export default function Latest() {
             </div>
           </div>
         </div>
-      </div>
+    </div>
   )
 }

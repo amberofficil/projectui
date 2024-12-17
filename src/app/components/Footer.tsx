@@ -7,6 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
+    
     <div>
 <footer className="bg-[#EEEFFB] h-auto sm:h-[500px] md:h-[500px] py-8 text-[#8A8FB9] items-center">
 
@@ -16,7 +17,7 @@ export default function Footer() {
     <div className="mt-[94px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 sm:gap-8 text-center md:text-left lg:text-left">
             <div className="mt-2 sm:mt-0">
               
-          {/* Logo */}
+               {/* Logo */}
           <Image
             src="/lodo.00.png"
             width={98}
@@ -100,7 +101,7 @@ export default function Footer() {
         <a
           href="https://twitter.com/knyttnev"
           rel="noopener noreferrer"
-          className="text-[#9DA0AE] ml-1"
+          className="text-[#9DA0AE] ml-10"
           target="_blank"
         >
           @Right Reserved
